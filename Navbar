@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Latihan DOM</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="apa.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar position-sticky">
+          <a class="navbar-brand" href="https://www.dota2.com/" target="_blank"><img id = "logo" src="/images/c1ecda477bc92b6ecfc533b64d4a0337.png" alt=""> Dota 2 R family</a>
+          <div class="contact">
+              <a href="https://www.instagram.com/raffaelali/" target="_blank">Contact us</a>
+              <a href="https://www.instagram.com/rozehan/" target="_blank">Contact us</a>
+              <a href="https://www.instagram.com/rizqyidzar/" target="_blank">Contact us</a>
+          </div>
+      </nav>
+      <br>
+      <div class="row" id="listBarang"></div>
+    </div>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
